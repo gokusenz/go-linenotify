@@ -60,7 +60,7 @@ func (c *Client) NotifyWithImageURL(ctx context.Context, token, message, imageTh
 }
 
 func (c *Client) notify(ctx context.Context, token string, body io.Reader, contentType string) (*NotifyResponse, error) {
-	req, err := http.NewRequestWithContext(ctx, "POST", "https://notify-api.line.me/api/notify", body)
+	req, err := http.NewRequestWithContext(ctx, "POST", "https://notify.luckybox.co/api/v1/line-oa/notify", body)
 	if err != nil {
 		return nil, fmt.Errorf("failed to new request: %w", err)
 	}
