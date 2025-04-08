@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/utahta/go-linenotify/auth"
-	"github.com/utahta/go-linenotify/token"
+	"github.com/gokusenz/go-linenotify/auth"
+	"github.com/gokusenz/go-linenotify/token"
 )
 
 // EDIT THIS

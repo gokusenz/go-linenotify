@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/utahta/go-linenotify"
+	"github.com/gokusenz/go-linenotify"
 )
 
 func main() {
