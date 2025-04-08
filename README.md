@@ -1,15 +1,15 @@
 # go-linenotify
 
-[![GoDoc Reference](https://godoc.org/github.com/utahta/go-linenotify?status.svg)](http://godoc.org/github.com/utahta/go-linenotify)
-![GitHub Action Status](https://github.com/utahta/go-linenotify/actions/workflows/ci.yaml/badge.svg)
-[![GitHub release](https://img.shields.io/github/release/utahta/go-linenotify.svg)](https://github.com/utahta/go-linenotify/releases)
+[![GoDoc Reference](https://godoc.org/github.com/gokusenz/go-linenotify?status.svg)](http://godoc.org/github.com/gokusenz/go-linenotify)
+![GitHub Action Status](https://github.com/gokusenz/go-linenotify/actions/workflows/ci.yaml/badge.svg)
+[![GitHub release](https://img.shields.io/github/release/gokusenz/go-linenotify.svg)](https://github.com/utahta/go-linenotify/releases)
 
 Go client library for the [LINE Notify](https://notify-bot.line.me/doc/)
 
 ## Install
 
 ```
-go get github.com/utahta/go-linenotify
+go get github.com/gokusenz/go-linenotify
 ```
 
 ## Example
