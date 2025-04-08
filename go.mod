@@ -1,4 +1,4 @@
-module github.com/utahta/go-linenotify
+module github.com/gokusenz/go-linenotify
 
 go 1.15
 
